@@ -139,7 +139,39 @@
                 </div>
                 <div class="input-wrapper flex-1">
                   <label for="state">Estado</label>
-                  <input type="text" id="state" name="state" disabled value="CE" />
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    disabled
+                    value="CE"
+                  />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="guardian">
+              <legend>Informações do responsavel</legend>
+
+              <div class="input-wrapper">
+                <label for="guardian">Nome do responsavel</label>
+                <input type="text" id="guardian" name="guardian" />
+                <small
+                  >Pincipal responsavel legal e contato de emergencia</small
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone"> telefone </label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+
+              <div class="wrapper-flex">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" required />
+                <div class="error">
+                  <img src="assets/icons/alert-circle.svg" alt="">
+                  <span>insira email valido</span>
                 </div>
               </div>
             </fieldset>
